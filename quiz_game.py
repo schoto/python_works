@@ -48,3 +48,4 @@ else:
     print("Incorrect!")
 
 print("You got " + str(score) + " answers correct!")
+print("Thanks for playing!")
