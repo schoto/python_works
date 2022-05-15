@@ -49,4 +49,5 @@ else:
     print("Incorrect!")
 
 print("You got " + str(score) + " answers correct!")
+print("Or " + str((score/4)*100) + " % of the questions right!")
 print("Thanks for playing!")
