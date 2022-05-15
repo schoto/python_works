@@ -1,5 +1,6 @@
 #A simple game with some questions and answers
 #User gets one point for every right answer
+#User is allowed to answer 4 questions
 print("Welcome to my computer quiz game! Have fun!")
 
 playing = input("Do you want to play a game? ")
