@@ -4,40 +4,47 @@ print("Welcome to my computer quiz game! Have fun!")
 
 playing = input("Do you want to play a game? ")
 
-if playing != "yes":
+if playing.lower() != "yes":
     quit()
 
 print("Okay! Let's then play!")
+score = 0
 
 #Question 1
 answer = input("What is the capital of France? ")
 
-if answer == "paris":
+if answer.lower() == "paris":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
 
 #Question 2
 answer = input("What does IBM stands for? ")
 
-if answer == "international business machines corporation":
+if answer.lower() == "international business machines corporation":
     print("Correct!")
+    score += 1
+
 else:
     print("Incorrect!")
     
 #Question 3
 answer = input("Who is the CEO of Apple? ")
 
-if answer == "tim cook":
+if answer.lower() == "tim cook":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
 
 #Question 4
 answer = input("Who is the CEO of Twitter? ")
 
-if answer == "elon musk":
+if answer.lower() == "elon musk":
     print("Correct!")
+    score += 1
 else:
     print("Incorrect!")
 
+print("You got " + str(score) + " answers correct!")
