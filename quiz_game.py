@@ -15,6 +15,7 @@ answer = input("What is the capital of France? ")
 
 if answer.lower() == "paris":
     print("Correct!")
+    #add one point to score
     score += 1
 else:
     print("Incorrect!")
